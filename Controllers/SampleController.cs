@@ -63,6 +63,12 @@ namespace BackendExperimental.Controllers
         {
             this.value = value;
         }
+
+        public SampleObject(String id, int value)
+        {
+            this.id = id;
+            this.value = value;
+        }
     }
 
     public class Tuple
